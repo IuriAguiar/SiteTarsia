@@ -1,0 +1,71 @@
+/*Resetando os valores de espaçamento */
+ * {
+ margin: 0;
+ padding: 0;
+ }
+
+/*Estilizando a nav da classe menu */
+ .menu {
+ width: 100%;
+ height: 50px;
+ background-color: #F7E051;
+ font-family: Arial black;
+ }
+
+/*Estilizando as listas */
+ .menu ul {
+ list-style: none;
+ position: relative;
+ }
+
+.menu ul li {
+ width: 150px;
+ float: left;
+ }
+
+.menu a {
+ padding: 15px;
+ display: block;
+ text-decoration: none;
+ text-align: center;
+ background-color: #F7E051;
+ color: #fff;
+ }
+
+.menu ul ul {
+ position: absolute;
+ visibility: hidden;
+ }
+
+.menu ul li:hover ul {
+ visibility: visible;
+ }
+
+.menu a:hover {
+ background-color: #EE604E;
+ color: #fff;
+ }
+
+.menu ul ul li {
+ float: none;
+ border-bottom: solid 1px #fff;
+ }
+
+.menu ul ul li a {
+ background-color: #F7E051;
+ }
+
+ .menu button {
+ border: none;
+ padding: 0px;
+ padding-right: 10px;
+ display: block;
+ text-decoration: none;
+ text-align: center;
+ background-color: #F7E051 ;
+ color: #;
+ }
+
+#but{
+	float: right;
+}
